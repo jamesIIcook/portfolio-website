@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("background-image1.jpg");
+	background-size: 100%;
+	background-origin:;
+	background-clip:;
+	background-repeat: repeat-right;
+}
+/*----------------------------------------------------------title wrapper------------------------*/
+.title-wrapper{
+	position: static;
+	float: left;
+	margin: 29% 0 0 4%;
+	font-size: 20px;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #DDDCC9;
+}
+.title-wrapper h1{
+	text-align: center;
+}
+.title-wrapper h3{
+	text-align: center;
+}
+/*-----------------------------------------------------------------------------------------------bottom header------------------------------------------------------------------------------------*/
+#bottom-header{
+	position: fixed;
+	position: fixed;
+	bottom: 67;
+	display: block;
+	height: 4em;
+	width: 100%;
+	background-color: #1d1d1d;
+	margin: 0 0 0 0;
+}
+/*---------------------------------------------------------dropdown menus-----------------------*/
+#mobile-wrapper-left{
+	border: 1px solid red;
+}
+#mobile-wrapper-right{
+	border: 1px solid red;
+}
+.btn-dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 2% 0 0 2%;
+}
+.btn {
+    background-color: #1d1d1d;
+    color: white;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 14.6%;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	clear:both;
+    display: none;
+    position: fixed;
+    background-color: #1d1d1d;
+    min-width: 60px;
+    box-shadow: 0px 20px 20px 0px rgba(10,10,0,200);
+    z-index: 100;
+    margin: -16% 0 0 0.15%;
+    border-radius: 4%;
+}
+.lone-btn{
+	position: relative;
+	display: inline-block;
+	background-color: #1d1d1d;
+	color: white;
+	font-size: 15px;
+	font-family:'Open Sans', sans-serif;
+	cursor: pointer;
+	margin: 2% 0 0 4%;
+}
+/*--------------------------------------------------------------------------------------------------------footer-----------------------------------------------------------------------------------*/
+#footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 4.2em;
+	margin: 0 0 0 0;
+	background-color: #9e9e9e;
+}
+/*------------------------------------------------------social media navbar----------------------*/
+#social-media-wrap{
+	position: relative;
+	height: auto;
+	width: auto;
+	display: inline-block;
+	margin: 0.7% 0 0 30.2%;
+	padding: 0;
+	overflow: none;
+}
+#footer p{
+	margin:0 0 0 23.8%;
+}
